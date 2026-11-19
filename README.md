@@ -39,6 +39,7 @@ if you download the whole folder nothing bad happends :3
 - Improve data validation and error handling.
 ## Structure
 
+### 1. Courses
 | Courses| Properties |
 |---|---|
 | `id` | A unique identifier used to find and identify a course. |
@@ -51,7 +52,7 @@ if you download the whole folder nothing bad happends :3
 | `__init__()` | Initializes a course with an ID, name, and number of units. |
 | `__eq__()` | Compares two courses using their IDs. |
 
-
+### 2. Student
 
 | Student | Properties |
 |---|---|
@@ -65,7 +66,7 @@ if you download the whole folder nothing bad happends :3
 | `__init__()` | Initializes a student. |
 | `__eq__()` | Compares two students using their IDs. |
 
-
+### 3. Teacher
 
 | Teacher | Properties |
 |---|---|
@@ -80,6 +81,8 @@ if you download the whole folder nothing bad happends :3
 | `__init__()` | Initializes a teacher. |
 | `__eq__()` | Compares two teachers using their IDs. |
 
+### 4. Classroom
+
 | Classroom | Properties |
 |---|---|
 | `id` | A unique identifier for the classroom. |
@@ -93,6 +96,7 @@ if you download the whole folder nothing bad happends :3
 | `__init__()` | Initializes a classroom with an ID and name. |
 | `__eq__()` | Compares two classrooms using their IDs. |
 
+### 5. School
 
 | School | Properties |
 |---|---|
